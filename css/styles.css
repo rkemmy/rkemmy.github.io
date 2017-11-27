@@ -1,0 +1,15 @@
+body{
+  background-image: url("../images/img1.jpg");
+  background-size: cover;
+}
+.name{
+  float: left;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li a{
+
+}
