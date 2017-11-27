@@ -11,15 +11,16 @@ ul{
   padding: 0;
   overflow: hidden;
   background-color: #05FCCB;
+  width: 100%
 }
-a{
+li a{
   float: left;
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-a hover{
+li a:hover{
   background-color: #05EC64;
 }
