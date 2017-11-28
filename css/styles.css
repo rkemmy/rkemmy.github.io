@@ -1,5 +1,7 @@
-body{
-  background-image: url("../images/img1.jpg");
+body
+{
+  background-image:
+    url("../images/img1.jpg");
   background-size: cover;
 }
 .name{
@@ -26,6 +28,14 @@ li a{
 }
 li a:hover{
   background-color:#1CCA04;
+}
+h1{
+  text-align: center;
+}
+.round{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 p{
   font-size: 20px;
