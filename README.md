@@ -1,10 +1,11 @@
-My-Portfolio
-author
-Risper kemunto
-Description
+# My-Portfolio
+# author
+#### Risper kemunto
+##Description
 This webpage showcases my first projects and the beginning of my journey into coding
 Setup/Installation Requirements
-Click on the links provided and explore!
+Click on the link provided and explore!
+https://rkemmy.github.io/
 Technologies
 This project uses HTML and CSS
 Contact details
