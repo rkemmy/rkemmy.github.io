@@ -1,59 +1,173 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <meta charset="utf-8">
-    <meta name="viewport" width="device-width">
-    <title>My Project Portfolio</title>
-
+    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link href="css/styles.css" rel="stylesheet">
   </head>
   <body>
-    <div class="container">
-      <div>
-        <ol>
-         <li><a href="index.html">Home</a></li>
-         <li><a href="about.html">About</a></li>
-         <li><a href="projects.html">Portfolio</a></li>
-         <li><a href="contact.html">Contact</a></li>
-       </ol>
+    <!--<nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top" id="nav">
+      <a class="navbar-brand" href="#">Risper</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skillset">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
       </div>
-
-      <h1>Risper Kemunto</h1>
-        <div class="round">
-          <img src="images/profile.jpeg"/>
-        </div>
-
-
-      <h2>About</h2>
-        <p>Hi, my name is Risper and I am a web designer. I am currently skilled in HTML and CSS. I enjoy making awesome web pages that are customized to suit your needs. Take a look at some of the sites I have made <a href="projects.html">here</a> and let me help you own a stunning website to showcase your work.</p>
-      <h3>Background</h3>
-        <p>Education</p>
-          <ul>
-            <li>High School-Starehe Girls</li>
-            <li>JKUAT-Bsc Biotechnology</li>
-          </ul>
-        <p>Work Experience</p>
-          <ul>
-            <li>KEMRI-CDC-Research assistant</li>
-            <li>Kenyatta Hospital-HTS Counselor</li>
-          </ul>
-        <p>Interests</p>
-          <ul>
-            <li><span class="important">CODING</span></li>
-            <li>Reading</li>
-            <li>Swimming</li>
-          </ul>
-        <p>Spending time in the health industry was an eye-opening experience into life.One does not appreciate the gift of life until faced with the realization of how fickle it is. So after reflection I realized that much as I was helping society I was deeply unfulfilled. I lacked a creative outlet since most of the work I did was mostly routine.I discovered the limitless fun there is to coding and decided to make a permanent switch. It's been endless fun since.</p>
-
-        <p><a href="contact.html">Contact</a> me and let's get started! </p>
-      <h2>Projects</h2>
-        <p><a href="https://github.com/rkemmy?tab=repositories">Sample my projects here</a></p>
-      <h2>Contact</h2>
-        <p>Get in touch for all your web development needs </p>
-          <li>Cell Phone: +254704076060</li>
-          <li class="mail">Email:<a href="https://mail.google.com">rkemmy.rk69@gmail.com</a></li>
+    </nav> -->
+    <div class="container-fluid">
+      <h1><strong>RISPER KEMUNTO</strong></h1>
+      <h3>Full stack software developer.</h3>
+      <div class="menu fixed-top" id="nav">
+        <a href="#about" class="btn btn-outline-light btn-lg">About</a>
+        <a href="#skillset" class="btn btn-outline-light btn-lg">Skills</a>
+        <a href="#projects" class="btn btn-outline-light btn-lg">Projects</a>
+        <a href="#contacts" class="btn btn-outline-light btn-lg">Contacts</a>
+      </div>
 
     </div>
 
+      <div id="about" class="row" style="background: #15191d">
+        <div class="col-md-12" style="padding-left: 30px">
+          <h2 class="about-heading" style="color: white">About Me</h2>
+          <hr class="my-4">
+        </div>
+        <div class="col-md-6" style="padding-left: 30px">
+
+          <p style="color: #6c6d6e">I am always looking to learn something new.That's when I feel alive the most.When the challenge is too complex, I finetune my focus and search for information from all the crevices I can find. Then comes the lightbulb moment and all that hardwork is finally validated. Coding has been quite the experience for me and however hard it may test me, I will make my stand.</p>
+          <br>
+         <p style="color: #6c6d6e">Every great developer you know got there by solving problems they were unqualified to solve until they actually did it." - Patrick McKenzie
+        </p>
+        </div>
+        <div class="col-md-6">
+          <img src="images/profile.jpeg" class="img-fluid">
+        </div>
+
+      </div>
+      <section id="skillset"class="skills">
+      <h1 class="text-center logo-text up">Skills</h1><br><br><br><br>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <i class="devicon-html5-plain logo"></i>
+            <h3 class="logo-text">HTML5</h3>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-javascript-plain logo"></i>
+            <h3 class="logo-text">JavaScript</h3>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-django-line logo"></i>
+            <h3 class="logo-text text">Django</h3>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-python-plain logo"></i>
+            <h3 class="logo-text text-center">Python</h3>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-postgresql-plain logo"></i>
+            <h3 class="logo-text text">Postgresql</h3>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-jquery-plain logo"></i>
+            <h3 class="logo-text text">Jquery</h3>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-heroku-original logo"></i>
+            <h3 class="logo-text text">Heroku</h3>
+          </div>
+          <div class="col-md-3">
+            <i class="devicon-git-plain logo"></i>
+            <h3 class="logo-text text">Git</h3>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section id="portfolio"class="portfolio" >
+    <div class="container">
+      <div id="projects" class="col-lg-12 text-center">
+        <h2 class="section-heading">Projects</h2>
+        <hr class="my-4">
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/gallery.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Galleremmy</h5>
+              <p class="card-text">A web application where users can view free and high definition pictures for free </p>
+              <a href="https://galleremmy.herokuapp.com/" class="btn btn-outline-info">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/ping.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Hoody</h5>
+              <p class="card-text">An application enabling members of several neighbourhoods keep track of current events</p>
+              <a href="https://hoodzille.herokuapp.com/" class="btn btn-outline-info">View</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="images/anitas.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Twinstar</h5>
+              <p class="card-text">A clone of the popular social media website popularly known as instagram</p>
+              <a href="https://twinstar.herokuapp.com/" class="btn btn-outline-info">View</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section style="background: #15191a">
+    <div id="contacts" class="col-lg-12 text-center">
+      <h2 class="section-heading" style="color: white">Contacts</h2>
+      <hr class="my-4">
+    </div>
+    <div class="contacts">
+      <div class="row">
+
+          <div class="col-md-3">
+              <i class="fab fa-github fa-3x"></i>
+          </div class="col-md-3">
+          <div >
+            <i class="far fa-envelope fa-3x"></i>
+          </div>
+          <div class="col-md-3">
+            <i class="fab fa-linkedin fa-3x"></i>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
   </body>
 </html>
